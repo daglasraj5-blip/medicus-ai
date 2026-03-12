@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARDAAN AI - Nursing Hotspot</title>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="manifest" href="data:application/manifest+json,{%22name%22:%22Vardaan%20AI%22,%22short_name%22:%22Vardaan%22,%22start_url%22:%22.%22,%22display%22:%22standalone%22,%22background_color%22:%22#0f172a%22,%22theme_color%22:%22#2563eb%22}">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 selection:bg-blue-500">
+
+    <nav class="bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 p-4 border-b border-slate-800">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-black text-blue-500 tracking-tighter italic">VARDAAN AI</h1>
+                <p class="text-[10px] text-slate-400 uppercase tracking-widest">Bihar Nursing Mission 2026</p>
+            </div>
+            <div class="flex gap-4">
+                <i class="fa-solid fa-circle-check text-green-500 animate-pulse"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main class="p-4 space-y-6 max-w-4xl mx-auto">
+        
+        <div class="bg-blue-600/20 border border-blue-500/50 p-4 rounded-2xl flex items-center gap-4">
+            <i class="fa-solid fa-bullhorn text-blue-400 text-xl"></i>
+            <p class="text-sm font-medium">Bihar AKU: 25 साल के पेपर अपडेट कर दिए गए हैं।</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div onclick="alert('5W1H Section Opening...')" class="bg-slate-900 p-6 rounded-3xl border border-slate-800 hover:scale-95 transition-transform cursor-pointer">
+                <div class="bg-blue-500/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-atom text-blue-500 text-xl"></i>
+                </div>
+                <h3 class="font-bold text-lg leading-tight">परमाणु विश्लेषण</h3>
+                <p class="text-xs text-slate-500 mt-1">Micro-History & 5W1H</p>
+            </div>
+
+            <div onclick="alert('Hotspot Papers Loading...')" class="bg-slate-900 p-6 rounded-3xl border border-slate-800 hover:scale-95 transition-transform cursor-pointer shadow-xl shadow-red-900/10">
+                <div class="bg-red-500/10 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                    <i class="fa-solid fa-fire text-red-500 text-xl"></i>
+                </div>
+                <h3 class="font-bold text-lg leading-tight">Bihar Hotspot</h3>
+                <p class="text-xs text-slate-500 mt-1">AKU Solve Papers</p>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-indigo-900/50 to-slate-900 p-6 rounded-3xl border border-indigo-500/30">
+            <h3 class="font-bold text-xl mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-gamepad text-indigo-400"></i> Social & Games
+            </h3>
+            <p class="text-sm text-slate-400 mb-4">नर्सिंग कम्युनिटी से जुड़ें और क्विज़ खेलें।</p>
+            <div class="flex gap-2">
+                <button class="bg-indigo-600 text-sm font-bold px-4 py-2 rounded-xl flex-1">Join Community</button>
+                <button class="bg-slate-800 text-sm font-bold px-4 py-2 rounded-xl flex-1 border border-slate-700">Play Quiz</button>
+            </div>
+        </div>
+
+    </main>
+
+    <div class="fixed bottom-6 left-1/2 -translate-x-1/2 w-[90%] bg-slate-900/90 backdrop-blur-xl border border-slate-700 h-16 rounded-3xl flex justify-around items-center px-6 shadow-2xl z-50">
+        <i class="fa-solid fa-house text-blue-500 text-xl"></i>
+        <i class="fa-solid fa-book-open text-slate-500 text-xl"></i>
+        <div class="bg-blue-600 w-12 h-12 rounded-full -mt-12 flex items-center justify-center shadow-lg border-4 border-slate-950 shadow-blue-500/50">
+            <i class="fa-solid fa-plus text-white text-xl"></i>
+        </div>
+        <i class="fa-solid fa-users text-slate-500 text-xl"></i>
+        <i class="fa-solid fa-gear text-slate-500 text-xl"></i>
+    </div>
+
+</body>
+</html>
